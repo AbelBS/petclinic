@@ -1,3 +1,5 @@
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
 <%@taglib prefix="t" tagdir="/WEB-INF/tags" %>
 <t:wrapper>
     <style>
@@ -13,8 +15,8 @@
         <label class="sr-only">Usuario</label>
         <input type="text" class="form-control" placeholder="Usuario" name="j_username"  required="true">
 
-        <label class="sr-only">Contraseña</label>
-        <input type="password" class="form-control" placeholder="Contraseña" name="j_password" required="true">
+        <label class="sr-only">ContraseÃ±a</label>
+        <input type="password" class="form-control" placeholder="ContraseÃ±a" name="j_password" required="true">
 
 
         <button class="btn btn-lg btn-primary btn-block" type="submit">Ingresar</button>
